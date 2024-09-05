@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="background">
+  <div class="container">
+    <h1>Kalkulator BMI</h1>
+    <div class="input-container">
+      <label>Tinggi Badan:</label>
+      <input type="number" id="height" placeholder="Tinggi (cm)">
+    </div>
+    <div class="input-container">
+      <label>Berat Badan:</label>
+      <input type="number" id="weight" placeholder="Berat (kg)">
+    </div>
+    <button onclick="calculateBMI()">Kalkulasi</button>
+    <div id="result"></div>
+    <div id="deteksiWarna"></div>
+    <span id="kelasKeterangan"></span>
+  </div> 
+
+  <script src="script.js"></script>
+</body>
+</html>
